@@ -13,3 +13,4 @@ type: CCT
 standard: b22
 ---
 Filament bulb with B22 (bayonet) base. Slight flicker on some combinations for dim and colour but change either by a few points and the flicker stops.
+Increasing the PWM Frequency in Tasmota Console will reduce flicker or flashing with this lamp - anything greater than 1500 will smooth the flicker. In console "pwmfrequency 1500"
